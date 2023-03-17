@@ -48,7 +48,7 @@ static double findAngle(int hours, int minutes)
         {
             // Print the result
             double angle = findAngle(hours, minutes);
-            Console.WriteLine("\nThe smaller angle between " + hours + "H and " + minutes + "m is " + angle + " degrees.");
+            Console.WriteLine($"\nThe smaller angle between {hours}H and {minutes}m is {angle} degrees.");
         }
 
         // Ask user to exit program
